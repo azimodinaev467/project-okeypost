@@ -3,7 +3,6 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import SalesGridSection from '../SalesGridSection';
 import HowToBuyFooter from '../HowToBuyFooter';
-
 export default function Sales() {
   return (
     <Box sx={{ pb: { xs: 6, md: 10 } }}>

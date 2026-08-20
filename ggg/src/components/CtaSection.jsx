@@ -3,7 +3,6 @@ import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import illustrationImg from '../assets/Иллюстрация (1).png';
-
 export default function CtaSection() {
   return (
     <Box component="section" sx={{ pb: { xs: 6, md: 10 }, bgcolor: '#fafafa' }}>
@@ -46,8 +45,6 @@ export default function CtaSection() {
               sx={{ width: '100%', height: 'auto', display: 'block', transform: { md: 'scale(1.1) translateY(-10px)' } }}
             />
           </Box>
-
-          {/* Text Content */}
           <Box sx={{ width: { xs: '100%', md: '60%' }, color: '#fff', py: { md: 5 } }}>
             <Typography
               variant="h3"
